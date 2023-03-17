@@ -2,11 +2,14 @@
 esx hud for fivem 
 
 <br> 
-Hej pojawiłeś się pewnie tutaj bo zobaczyłeś gdzieś link do tego hudu
+
+<h1>Hej pojawiłeś się pewnie tutaj bo zobaczyłeś gdzieś link do tego hudu </h1>
 <br>
+<h3>
 Hud jest stworzony tylko pod esxa, ma dużo fajnych opcji.
 
 Zresztą zobacz jak to wygląda poniżej :>
+<hr>
 <br>
 <img src="https://i.imgur.com/JJc0Dxy.png" />
 <br>
