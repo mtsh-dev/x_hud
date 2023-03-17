@@ -14,5 +14,5 @@ https://imgur.com/a/eAnJX57
 <br>
 https://imgur.com/M9PYbUH
 <br>
-https://imgur.com/twKY6Nz
+https://i.imgur.com/twKY6Nz.png
 
