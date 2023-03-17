@@ -8,7 +8,8 @@ Hud jest stworzony tylko pod esxa, ma dużo fajnych opcji.
 
 Zresztą zobacz jak to wygląda poniżej :>
 <br>
- <img src="https://imgur.com/JJc0Dxy" />
+![alt text](https://imgur.com/JJc0Dxy)
+ <img src="" />
  <img src="https://imgur.com/ba4uYEi" />
  <img src="https://imgur.com/M9PYbUH" />
  <img src="https://imgur.com/twKY6Nz" />
