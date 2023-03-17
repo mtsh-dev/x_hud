@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8" />
+  <title>x_hudzik fivem 2023 ekipa tanczy całą noc </title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/c4795e4895.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <div id="cinema_container">
+    <div id="cinema_up"></div>
+    <div id="cinema_down"></div>
+  </div>
+  <div id="settings">
+    <div id="settings_title">Ustawienia HUD</div>
+    <div class="settings_option">
+      <div class="settings_option_left">
+        <div class="settings_option_label">Pokaż HUD Pojazdu</div>
+      </div>
+      <div class="settings_option_right">
+        <span id="show_carhud" class="settings_option_value switch" onclick="ToggleStat(this)">ON</span>
+      </div>
+    </div>
+    <div id="settings_options">
+      <div class="settings_option">
+        <div class="settings_option_left">
+          <div class="settings_option_label">Pokaż HUD</div>
+        </div>
+        <div class="settings_option_right">
+          <span id="show_hud" class="settings_option_value switch" onclick="ToggleStat(this)">ON</span>
+        </div>
+      </div>
+      <div class="settings_option">
+        <div class="settings_option_left">
+          <div class="settings_option_label">Pokaż Watermark</div>
+        </div>
+        <div class="settings_option_right">
+          <span id="watermark_display" class="settings_option_value switch" onclick="ToggleStat(this)">ON</span>
+        </div>
+      </div>
+      <div class="settings_option">
+        <div class="settings_option_left">
+          <div class="settings_option_label">Kolor Tła</div>
+        </div>
+        <div class="settings_option_right">
+          <input id="change_secondary" class="colorinput settings_option_value" type="color" value="#1b2124" />
+        </div>
+      </div>
+      <div class="settings_option">
+        <div class="settings_option_left">
+          <div class="settings_option_label">Kolor Główny</div>
+        </div>
+        <div class="settings_option_right">
+          <input id="change_primary" class="colorinput settings_option_value" type="color" value="#009cff" />
+        </div>
+      </div>
+      <div class="settings_option">
+        <div class="settings_option_left">
+          <div class="settings_option_label">Tryb Kinowy</div>
+        </div>
+        <div class="settings_option_right">
+          <span id="cinema" class="settings_option_value switch" onclick="ToggleStat(this)">ON</span>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div id="watermark">
+    <div id="watermark-container">
+      <div id="main-logo">
+        <img src="https://cdn.tipo.live/files/avatar/6496_avatar.jpg" />
+      </div>
+      <div id="id-background">
+        <div id="main-id">1</div>
+      </div>
+    </div>
+  </div>
+  <div id="hud_container">
+    <div id="carhud">
+      <div id="carhud_content">
+        <div id="carhud_icons">
+          <div id="location" class="location">xddd</div>
+          <div class="line"></div>
+          <div id="direction" class="location">N</div>
+        </div>
+        <div id="speedometer">
+          <div id="speedometer_content">
+            <div id="speedometer_value">125</div>
+            <div id="speedometer_label">KM/H</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="hud_display">
+      <div id="hud">
+        <div class="iconBox">
+          <div class="icon">
+            <i class="iconShape fa-solid fa-heart-pulse"></i>
+            <i id="health" class="iconShape iconValue fa-solid fa-heart-pulse"></i>
+          </div>
+        </div>
+        <div class="iconBox">
+          <div class="icon">
+            <i class="iconShape fa-solid fa-shield"></i>
+            <i id="armour" class="iconShape iconValue fa-solid fa-shield"></i>
+          </div>
+        </div>
+        <div class="iconBox">
+          <div class="icon">
+            <i class="iconShape fa-solid fa-bottle-water"></i>
+            <i id="thirst" class="iconShape iconValue fa-solid fa-bottle-water"></i>
+          </div>
+        </div>
+        <div class="iconBox">
+          <div class="icon">
+            <i class="iconShape fa-solid fa-bacon"></i>
+            <i id="hunger" class="iconShape iconValue fa-solid fa-bacon"></i>
+          </div>
+        </div>
+        <div class="iconBox">
+          <div class="icon">
+            <i class="iconShape fa-solid fa-microphone-lines"></i>
+            <i id="voice" class="iconShape iconValue fa-solid fa-microphone-lines"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
